@@ -314,11 +314,11 @@ export default function LandingPage() {
           </div>
 
           <div className="mt-10 flex justify-center space-x-4">
-            <Link href="#" className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700">
+            <Link href="/dashboard" className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700">
               Tokenize Carbon Credits Now
               <ArrowRight className="ml-2 -mr-1 h-5 w-5" />
             </Link>
-            <Link href="#" className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-green-700 bg-green-100 hover:bg-green-200">
+            <Link href="/dashboard" className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-green-700 bg-green-100 hover:bg-green-200">
               Buy Fractional Ownership
               <ArrowRight className="ml-2 -mr-1 h-5 w-5" />
             </Link>
