@@ -79,7 +79,7 @@ export default function Dashboard() {
             <h1 className="text-2xl font-bold text-gray-800 dark:text-black">CaelumX</h1>
           </div>
           <nav className="hidden md:flex space-x-4">
-            {/* <Button variant="ghost" onClick={() => setActiveTab('home')}><Home href="/mintCredits" className="mr-2" />Home</Button> */}
+            <Button variant="ghost" onClick={() => setActiveTab('home')}><Home href="/mintCredits" className="mr-2" />Home</Button>
             <Button variant="ghost" onClick={() => setActiveTab('mint')}><CreditCard className="mr-2" />Mint Credits</Button>
             <Button variant="ghost" onClick={() => setActiveTab('history')}><History className="mr-2" />Token History</Button>
             <Button variant="ghost" onClick={() => setActiveTab('about')}><Info className="mr-2" />About Us</Button>
